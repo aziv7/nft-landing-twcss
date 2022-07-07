@@ -1,0 +1,13 @@
+<svg width="169" height="59" viewBox="0 0 169 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="168.91" y="58.9199" width="168.91" height="58.92" rx="15" transform="rotate(-180 168.91 58.9199)" fill="url(#paint0_radial_1322_27)"/>
+<defs>
+<radialGradient id="paint0_radial_1322_27" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(117.32 -12.6602) rotate(34.5293) scale(284.037 262.499)">
+<stop stop-color="#0A0822"/>
+<stop offset="0.107657" stop-color="#1B1351"/>
+<stop offset="0.42707" stop-color="#4E2BC3"/>
+<stop offset="0.645239" stop-color="#A15EE6"/>
+<stop offset="1" stop-color="#DBA8DB"/>
+<p class='text-white' >Connect Wallet</p>
+</radialGradient>
+</defs>
+</svg>
