@@ -1,8 +1,10 @@
 import React from 'react';
+import { useState } from 'react';
 import logo from '../img/Finite.svg';
 
 import loopicon from '../img/MagnifyingGlass.svg';
 const Header = () => {
+  const [searchTerm, setSearch] = useState('Search for "crypto punk"');
   return (
     <div className='flex items-center justify-between'>
       <div>
@@ -19,9 +21,10 @@ const Header = () => {
           <div className='w-full mr-4'>
             {' '}
             <input
+              onChange={(e) => setSearch(e.target.value)}
               type='text'
               placeholder='Search for "crypto punk"'
-              value='Search for "crypto punk"'
+              value={searchTerm}
               className='w-full bg-transparent outline-none text-lg text-[#49536E]'
             />{' '}
           </div>{' '}
