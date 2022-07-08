@@ -31,9 +31,15 @@ const Header = () => {
         </div>
         <div>
           <ul className='flex flex-row gap-10'>
-            <li className='text-[#0F1D40] text-xl font-bold'>Explore</li>
-            <li className='text-[#0F1D40] text-xl font-bold'>Create</li>
-            <li className='text-[#0F1D40] text-xl font-bold'>Blog</li>
+            <li className='text-[#0F1D40] text-xl font-bold cursor-pointer'>
+              Explore
+            </li>
+            <li className='text-[#0F1D40] text-xl font-bold cursor-pointer'>
+              Create
+            </li>
+            <li className='text-[#0F1D40] text-xl font-bold cursor-pointer'>
+              Blog
+            </li>
           </ul>
         </div>
         <div>
